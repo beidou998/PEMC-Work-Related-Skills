@@ -1,6 +1,10 @@
 # PEMC Work-Related Skills
 
-Version-controlled collection of reusable PEMC work-related AI skills.
+## 仓库简介
+
+**PEMC Work-Related Skills** 是一个统一、可持续维护的团队工作技能库，集中沉淀和共享经过实践验证、可直接复用的工作 Skill，减少重复摸索，提升日常工作的效率与一致性。
+
+目前已包含指南对比（通用版 / ONC 版）、APEX PPT 模板换肤等 Skill。欢迎团队成员持续补充和完善，共同将其建设为可持续复用的工作技能库。
 
 ## Available skills
 
