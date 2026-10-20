@@ -7,5 +7,6 @@ Version-controlled collection of reusable PEMC work-related AI skills.
 | Skill | Description |
 | --- | --- |
 | `medical-guideline-version-comparison-general` | Compares two medical guideline PDF versions and produces a structured HTML report. |
+| `medical-guideline-version-comparison-oncology` | Compares two oncology guideline PDF versions, prioritizes clinically meaningful treatment changes, and supports change annotation in the updated PDF. |
 
 Each skill is self-contained. Credentials, source PDFs, and generated reports are deliberately excluded from version control.
