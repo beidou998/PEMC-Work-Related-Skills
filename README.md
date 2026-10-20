@@ -6,7 +6,7 @@ Version-controlled collection of reusable PEMC work-related AI skills.
 
 | Skill | Description |
 | --- | --- |
-| `apex-pptx-reskin-v5` | Reskins completed PowerPoint decks to the APEX 2024/2026 template. Internal use only. |
+| `apex-pptx-reskin-v5` | Reskins completed PowerPoint decks to the APEX 2026 template. Internal use only. |
 | `medical-guideline-version-comparison-general` | Compares two medical guideline PDF versions and produces a structured HTML report. |
 | `medical-guideline-version-comparison-oncology` | Compares two oncology guideline PDF versions, prioritizes clinically meaningful treatment changes, and supports change annotation in the updated PDF. |
 
