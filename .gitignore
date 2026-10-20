@@ -1,0 +1,12 @@
+# Credentials
+**/API.txt
+*.env
+
+# Runtime inputs and generated reports
+**/input/*
+**/output/*
+!**/output/generate_eml_newsletter.py
+
+# Python cache files
+**/__pycache__/
+*.py[cod]
