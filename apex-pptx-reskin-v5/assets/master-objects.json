@@ -1,0 +1,199 @@
+{
+  "sourcePresentation": "Authorized APEX 2024 English reference presentation (not included; not required at runtime)",
+  "sourceCanvasInches": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "cleanNativeMasterFile": "source-master-layouts.pptx",
+  "layouts": {
+    "cover": {
+      "design": "3_APEX 2024",
+      "layout": "Title Slide",
+      "sourceSlide": 1,
+      "objects": [
+        {
+          "name": "Picture 7",
+          "type": "picture",
+          "media": "ppt/media/image2.png",
+          "xInches": 0.0,
+          "yInches": 0.0,
+          "widthInches": 13.3333,
+          "heightInches": 7.5,
+          "crop": { "left": 0.0, "top": 0.0, "right": 0.0, "bottom": 0.0 },
+          "role": "Original flattened cover background and right-side crystal visual"
+        },
+        {
+          "name": "Picture 9",
+          "type": "picture",
+          "media": "ppt/media/image3.emf",
+          "asset": "logo-bayer.emf",
+          "xInches": 12.5841,
+          "yInches": 0.1667,
+          "widthInches": 0.563,
+          "heightInches": 0.563,
+          "crop": { "left": 0.0, "top": 0.0, "right": 0.0, "bottom": 0.0 },
+          "role": "Bayer logo, top-right of cover",
+          "positionUpdatedFrom": "Repositioned bottom-left (x=0.5758, y=6.6699) to top-right per the 2026-08 4-page master template '1 APEX模板 共4页.pptx' (external file, not distributed); artwork itself is byte-identical (confirmed via MD5)."
+        },
+        {
+          "name": "图片 8",
+          "type": "picture",
+          "asset": "logo-cahst.png",
+          "xInches": 11.7507,
+          "yInches": 0.0833,
+          "widthInches": 0.7298,
+          "heightInches": 0.7297,
+          "crop": { "left": 0.0, "top": 0.0, "right": 0.0, "bottom": 0.0 },
+          "role": "Partner badge (China Association for Promotion of Health Science and Technology / 中国人体健康科技促进会), top-right of cover, immediately left of the Bayer logo",
+          "provenance": "New object added in the 2026-08 4-page master template '1 APEX模板 共4页.pptx' (external file, not distributed). Not present in the original 7-slide APEX 2024 vendor reference."
+        }
+      ],
+      "sourceSlideObjectsNotInMaster": [
+        {
+          "name": "图片 2",
+          "media": "ppt/media/image21.png",
+          "asset": "logo-apex-2024.png",
+          "xInches": -0.2149,
+          "yInches": -0.0202,
+          "widthInches": 2.4309,
+          "heightInches": 0.8799
+        },
+        {
+          "name": "图片 1",
+          "media": "ppt/media/image20.png",
+          "asset": "logo-apex-china.png",
+          "xInches": 1.795,
+          "yInches": 0.0136,
+          "widthInches": 1.7554,
+          "heightInches": 0.8121
+        },
+        {
+          "name": "直接连接符 3",
+          "type": "line",
+          "xInches": 1.9159,
+          "yInches": 0.093,
+          "widthInches": 0.0,
+          "heightInches": 0.6505
+        }
+      ]
+    },
+    "content": {
+      "design": "2_APEX 2024",
+      "layout": "1_Content page",
+      "sourceSlide": 2,
+      "objects": [
+        {
+          "name": "Picture 5",
+          "type": "picture",
+          "media": "ppt/media/image9.png",
+          "xInches": 0.0,
+          "yInches": 0.0,
+          "widthInches": 13.3333,
+          "heightInches": 6.9685,
+          "crop": { "left": 0.0, "top": 0.0, "right": 0.0, "bottom": 0.07087 },
+          "role": "Original flattened white content field and top-right crystals"
+        },
+        {
+          "name": "Picture 4",
+          "type": "picture",
+          "media": "ppt/media/image10.png",
+          "asset": "logo-apex-primary.png",
+          "xInches": 12.1447,
+          "yInches": 7.0698,
+          "widthInches": 0.9838,
+          "heightInches": 0.3017,
+          "crop": { "left": 0.0, "top": 0.0, "right": 0.0, "bottom": 0.0 },
+          "role": "Bottom-right APEX logo"
+        }
+      ]
+    },
+    "twoColumn": {
+      "design": "2_APEX 2024",
+      "layout": "Content_Columns",
+      "sourceSlide": 3,
+      "backgroundObject": {
+        "name": "Picture 6",
+        "media": "ppt/media/image9.png",
+        "xInches": 0.0,
+        "yInches": 0.0,
+        "widthInches": 13.3333,
+        "heightInches": 6.9173,
+        "crop": { "left": 0.0, "top": 0.0, "right": 0.0, "bottom": 0.07769 }
+      },
+      "logoObject": {
+        "name": "Picture 8",
+        "media": "ppt/media/image10.png",
+        "asset": "logo-apex-primary.png",
+        "xInches": 12.1447,
+        "yInches": 7.0698,
+        "widthInches": 0.9838,
+        "heightInches": 0.3017
+      }
+    },
+    "case": {
+      "design": "2_APEX 2024",
+      "layout": "Patient case_Option 2",
+      "sourceSlide": 7,
+      "objects": [
+        {
+          "name": "Picture 2",
+          "type": "picture",
+          "media": "ppt/media/image9.png",
+          "xInches": -0.0076,
+          "yInches": -0.0028,
+          "widthInches": 13.3333,
+          "heightInches": 6.8898,
+          "crop": { "left": 0.0, "top": 0.0, "right": 0.0, "bottom": 0.08136 },
+          "role": "Original flattened content field and top-right crystals"
+        },
+        {
+          "name": "Rectangle 4",
+          "type": "shape",
+          "xInches": 0.0,
+          "yInches": 0.0,
+          "widthInches": 3.0139,
+          "heightInches": 7.5,
+          "fill": "#180142",
+          "line": "none",
+          "role": "Dark-purple base behind the case sidebar"
+        },
+        {
+          "name": "Picture 18",
+          "type": "picture",
+          "media": "ppt/media/image12.png",
+          "asset": "component-case-sidebar.png",
+          "xInches": 0.1266,
+          "yInches": 0.0,
+          "widthInches": 2.8873,
+          "heightInches": 7.3594,
+          "crop": { "left": 0.042, "top": 0.00001, "right": 0.0, "bottom": 0.01875 },
+          "role": "Faceted case sidebar overlay"
+        },
+        {
+          "name": "Picture 3",
+          "type": "picture",
+          "media": "ppt/media/image10.png",
+          "asset": "logo-apex-primary.png",
+          "xInches": 12.1447,
+          "yInches": 7.0698,
+          "widthInches": 0.9838,
+          "heightInches": 0.3017,
+          "role": "Bottom-right APEX logo"
+        }
+      ]
+    }
+  },
+  "derivedIndependentElements": {
+    "element-cover-crystal-visual.png": {
+      "derivedFromLayout": "Title Slide",
+      "derivedFromObject": "Picture 7",
+      "derivedFromMedia": "ppt/media/image2.png",
+      "placementInches": { "x": 6.33, "y": 0.0, "width": 7.0, "height": 7.5 }
+    },
+    "element-content-corner-crystals.png": {
+      "derivedFromLayouts": ["1_Content page", "Content_Columns", "Patient case_Option 2"],
+      "derivedFromMedia": "ppt/media/image9.png",
+      "placementInches": { "x": 11.8, "y": 0.0, "width": 1.53, "height": 2.2 }
+    }
+  }
+}

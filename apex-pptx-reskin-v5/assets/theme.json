@@ -1,0 +1,111 @@
+{
+  "canvas": {
+    "aspectRatio": "16:9",
+    "widthInches": 13.333333,
+    "heightInches": 7.5
+  },
+  "masterElements": {
+    "sourceMasterPresentation": "source-master-layouts.pptx",
+    "sourceObjectManifest": "master-objects.json",
+    "coverCrystalVisual": {
+      "file": "element-cover-crystal-visual.png",
+      "xInches": 6.33,
+      "yInches": 0,
+      "widthInches": 7.0,
+      "heightInches": 7.5,
+      "align": "right"
+    },
+    "contentCornerCrystals": {
+      "file": "element-content-corner-crystals.png",
+      "xInches": 11.8,
+      "yInches": 0,
+      "widthInches": 1.53,
+      "heightInches": 2.2,
+      "align": "top-right"
+    },
+    "contentApexLogo": {
+      "file": "logo-apex-primary.png",
+      "xInches": 12.14,
+      "yInches": 7.07,
+      "widthInches": 0.98,
+      "heightInches": 0.3,
+      "align": "bottom-right"
+    },
+    "caseSidebar": {
+      "file": "component-case-sidebar.png",
+      "xInches": 0.13,
+      "yInches": 0,
+      "widthInches": 2.89,
+      "heightInches": 7.36,
+      "align": "left"
+    },
+    "caseSidebarBase": {
+      "type": "nativeRectangle",
+      "xInches": 0,
+      "yInches": 0,
+      "widthInches": 3.0139,
+      "heightInches": 7.5,
+      "fill": "#180142",
+      "line": "none"
+    },
+    "coverBayerLogo": {
+      "file": "logo-bayer.emf",
+      "xInches": 12.5841,
+      "yInches": 0.1667,
+      "widthInches": 0.563,
+      "heightInches": 0.563
+    },
+    "coverPartnerBadge": {
+      "file": "logo-cahst.png",
+      "xInches": 11.7507,
+      "yInches": 0.0833,
+      "widthInches": 0.7298,
+      "heightInches": 0.7297
+    },
+    "coverApex2024Logo": {
+      "file": "logo-apex-2024.png",
+      "xInches": -0.2149,
+      "yInches": -0.0202,
+      "widthInches": 2.4309,
+      "heightInches": 0.8799,
+      "sourceLevel": "slide"
+    },
+    "coverApexChinaLogo": {
+      "file": "logo-apex-china.png",
+      "xInches": 1.795,
+      "yInches": 0.0136,
+      "widthInches": 1.7554,
+      "heightInches": 0.8121,
+      "sourceLevel": "slide"
+    }
+  },
+  "fonts": {
+    "englishPrimary": "Avenir Next LT Pro",
+    "englishFallback": "Arial",
+    "chinesePrimary": "Microsoft YaHei"
+  },
+  "colors": {
+    "titlePurple": "#991BC5",
+    "deepPurple": "#310086",
+    "darkPurple": "#41108D",
+    "brightPurple": "#8A23C8",
+    "teal": "#008C95",
+    "tealDark": "#00767E",
+    "riskRed": "#C00000",
+    "bodyDark": "#333333",
+    "secondaryGrey": "#808080",
+    "white": "#FFFFFF",
+    "palePurple": "#F1ECFA"
+  },
+  "chartSeries": ["310086", "8A23C8", "008C95", "00767E"],
+  "usage": {
+    "titles": "titlePurple",
+    "primaryChartsAndAccents": "deepPurple",
+    "secondaryComparison": "teal",
+    "riskAndWarning": "riskRed",
+    "bodyText": "deepPurple",
+    "footnotes": "secondaryGrey",
+    "masterNotes": "EN all Avenir Next LT Pro; cover 40pt; titles 28-36 flex #991BC5; body #310086; refs 9pt (8pt if overflow) #808080",
+    "multiSeriesCharts": "chartSeries, sliced to exactly match the number of data series; never let PptxGenJS fall back to its own default palette"
+  }
+}
