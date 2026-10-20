@@ -28,7 +28,7 @@ Each skill is self-contained. Credentials, source PDFs, and generated reports ar
 
 ### 2. 选择技能版本
 
-- `apex-pptx-reskin-v5`：适用于将已完成的 PowerPoint 套用 APEX 2024/2026 模板；仅限拥有相应内部使用权限的人员。
+- `apex-pptx-reskin-v5`：适用于将已完成的 PowerPoint 套用 APEX 2026 模板，达到一键换模板包括但不仅限于 logo、字体、字号、图表颜色配比等的效果。
 - `medical-guideline-version-comparison-general`：适用于各疾病领域的指南版本对比。
 - `medical-guideline-version-comparison-oncology`：适用于肿瘤指南，重点识别有临床意义的治疗方案变化，并支持对新版 PDF 标注关键变化。
 
