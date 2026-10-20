@@ -53,3 +53,23 @@ PDF 转 Markdown 需要个人 MinerU API 密钥。请前往 [MinerU 官网](http
 - 仅使用已获授权的指南 PDF，不要将受版权保护的原始指南或其衍生材料上传至公开仓库。
 - `input/`、`output/`、API 密钥和运行时生成的中间文件均默认不纳入 Git。
 - 仓库只保存可复用的技能说明和脚本；将正式交付报告保存在经批准的内部位置。
+
+### 6. 上传新 Skill
+
+欢迎补充可复用的工作 Skill。建议每个 Skill 使用一个独立文件夹，并至少包含 `SKILL.md`；如需脚本、模板或使用说明，也一并放在该文件夹中。
+
+通过 GitHub 网页提交：
+
+1. 打开本仓库，点击右上角 **Fork**，将仓库复制到自己的 GitHub 账号。
+2. 在自己的仓库中创建一个新的 Skill 文件夹，点击 **Add file** -> **Upload files** 上传文件。
+3. 更新根目录 `README.md` 的 **Available skills** 表格，补充新 Skill 的名称和一句用途说明。
+4. 点击 **Contribute** -> **Open pull request**，填写 Skill 的用途、适用场景和主要文件后创建 Pull Request。
+5. 仓库维护人核对内容与合规要求后，将 Pull Request 合并到主仓库。
+
+提交前请确认：
+
+- 不包含 API Key、密码、个人信息、内部交付文件或未获授权的源材料。
+- 已在本地试用；`SKILL.md` 说明清楚输入、输出和基本使用方式。
+- 不上传 `node_modules/`、`__pycache__/`、`input/`、`output/` 等依赖或运行时生成目录。
+
+如暂时没有 GitHub 账号、不熟悉 Fork 或 Pull Request，可将完整 Skill 文件夹和简要说明发给仓库维护人，由维护人协助上传。
