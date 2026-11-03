@@ -30,6 +30,19 @@ Each skill is self-contained. Credentials, source PDFs, and generated reports ar
 	cd PEMC-Work-Related-Skills
 	```
 
+**只需要某一个 Skill？** 网页的 Download ZIP 只能打包整个仓库，可用以下方式只下载单个 Skill 文件夹：
+
+- 打开 [download-directory.github.io](https://download-directory.github.io/)，粘贴该 Skill 文件夹的 GitHub 网址（例如 `https://github.com/beidou998/PEMC-Work-Related-Skills/tree/main/apex-pptx-reskin-v5`），即可只下载这一个文件夹。
+- 已安装 Git 时用 sparse-checkout 只检出单个文件夹：
+
+	```powershell
+	git clone --no-checkout --depth 1 --filter=blob:none https://github.com/beidou998/PEMC-Work-Related-Skills.git
+	cd PEMC-Work-Related-Skills
+	git sparse-checkout init --cone
+	git sparse-checkout set apex-pptx-reskin-v5
+	git checkout main
+	```
+
 ### 2. 选择技能版本
 
 - `apex-pptx-reskin-v5`：适用于将已完成的 PowerPoint 套用 APEX 2026 模板，达到一键换模板包括但不仅限于 logo、字体、字号、图表颜色配比等的效果。
